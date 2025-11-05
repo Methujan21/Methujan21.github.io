@@ -1,0 +1,33 @@
+
+body{
+    background-color: ;
+}
+
+h2{
+    color:black;
+    background-color: aqua;
+    border-style: groove;
+    border-color: white;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:aqua;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 43%, 1%);
+}
+.navbar li{
+    float:left;
+}

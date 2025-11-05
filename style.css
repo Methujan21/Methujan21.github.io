@@ -1,0 +1,106 @@
+<style>
+
+p{
+    background-color: aqua;
+    font-family:"consolas";
+    font-style: "italic";
+    font-weight: 100;
+    border-style:groove;
+    border-width: 5px ;
+    border-color:white
+}
+
+h1{
+    text-align: center;
+    border-style:groove;
+    border-width:5px;
+    border-color:white;
+    float:left;
+    float:right;
+    width:520px;
+    height: 80px;
+    font-size: 50px;
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-style:groove;
+    border-width:5px;
+    border-color:white;
+    margin:10px;
+    float: left;
+
+
+}
+
+#img1{
+    border-style:groove;
+    border-width:5px;
+    border-color:aqua;
+    
+}
+
+#img2{
+    margin-top: 34px;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: white;
+
+}
+#box1{
+    border:5px solid;
+    width:250px;
+    height: 250px;
+    font-size:22px;
+    background:blue;
+    padding:10px;
+    margin:10px
+
+}
+#box2{
+    border:5px solid;
+    border-color: white;
+    width:250px;
+    height: 250px;
+    font-size:22px;
+    background:pink;
+}
+#text1{
+border:5px solid;
+width: 1500px;
+height: 100px;
+font-size: 50px;
+border-color: white;
+border-style: groove;
+background-color: aqua;
+color: black;
+margin-left: auto;
+}
+.navbar ul{
+    margin-top: 100px;
+    list-style-type:none;
+    background-color:aqua;
+    padding:0px;
+    overflow: hidden;
+    border-style: groove;
+    border-color: grey;
+}
+
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(234, 68%, 36%);
+}
+.navbar li{
+    float:left;
+}
+</style>
